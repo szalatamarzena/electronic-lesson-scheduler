@@ -1,0 +1,62 @@
+body {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.form-signin {
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.form-signin input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.form-signin-heading {
+  text-align: center;
+}
+
+.time-cell-div {
+  display: inline;
+}
+
+#clock {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 100;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.05;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.table-actions div {
+  width: 160px;
+}
+
+.table-actions button {
+  float: left;
+  margin: 5px;
+}
+
+.edit-form {
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.edit-form button[type="submit"] {
+  float: right;
+}
